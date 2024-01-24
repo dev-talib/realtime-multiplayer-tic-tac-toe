@@ -9,7 +9,3 @@ To run this game:
 2. Run `npm install`
 
 3. Run `npm start`
-
-4. Go to http://localhost:5000/
-
-## Screenshots

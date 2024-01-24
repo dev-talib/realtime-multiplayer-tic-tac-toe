@@ -1,0 +1,80 @@
+.tile{
+	width: 80px;
+	height: 80px;
+	font-size: 60px;
+	font-family: Helvetica;
+}
+
+.gameBoard{
+	display: none;
+}
+
+.center{
+	margin: 0 auto;
+}
+
+body {
+	background-color: #f4f4f4;
+	text-align: center;
+  background-image: url('tik-tak-tok-background-img.jpg');
+  background-size: cover;
+  }
+  
+  .container {
+	margin-top: 50px;
+  }
+
+  h1 {
+	position: relative;
+	color: #ffffff;  
+	font-size: 18rem;
+	line-height: 0.9;
+	text-align: center;
+	font-weight: bolder;
+  }
+
+  .container li{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .menu button {
+    background-color: #f4f4f4;
+  }
+  
+  .tile {
+	background-color: #fff;
+	/* border: 2px solid #000; */
+	border: none;
+	font-size: 24px;
+	font-weight: bold;
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+  }
+  
+  .tile:disabled {
+	color: #666;
+	cursor: not-allowed;
+  }
+  
+  .menu, .gameBoard {
+	margin-top: 20px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    h1 { 
+      font-size: 13rem;
+      font-weight: bolder;
+      }
+    
+      .container li{
+        font-size: 12px;
+        font-weight: bold;
+      }
+
+      .gameBoard{
+         font-size: 12px;
+      }
+  }
+  
